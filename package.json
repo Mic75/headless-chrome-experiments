@@ -1,0 +1,20 @@
+{
+  "name": "headless-chrome-experiments",
+  "version": "1.0.0",
+  "description": "Experiments about the new headless chrome feature",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "chrome",
+    "headless",
+    "offscreen-rendering"
+  ],
+  "author": "Mic75",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-remote-interface": "^0.22.0",
+    "lighthouse": "^1.6.5"
+  }
+}
