@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "chrome-remote-interface": "^0.22.0",
+    "es6-promisify": "^5.0.0",
     "lighthouse": "^1.6.5"
   }
 }
