@@ -4,23 +4,5 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<script>
-  document.body = document.createElement('body');
-  iframe = document.createElement('iframe');
-  iframe.width = '100%';
-  iframe.height = '100%';
-  iframe.setAttribute('id', 'yt-iframe');
-  document.body.appendChild(iframe);
-  tag = document.createElement('script');
-  tag.id = 'iframe-demo';
-  tag.src = 'https://www.youtube.com/iframe_api';
-  document.head.append(tag);
-  iframe.src = 'https://www.youtube.com/embed/ODXMhaNIF5E?enablejsapi=1';
-
-  player = new YT.Player('yt-iframe');
-  player.playVideo();
-  player.seekTo(11.7);
-
-</script>
 </body>
 </html>
